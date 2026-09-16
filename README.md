@@ -26,3 +26,6 @@
 git clone https://github.com/sqaw0/i_like_bugs_btw.git
 cd i_like_bugs_btw
 gradle build
+```
+
+###### P.S. Мод написан при помощи нейросетей (Deepseek), код был правлен и проверен человеком (Deepseek'у пришлось подсказать насчёт Mixin'ов и много чего ещё).
