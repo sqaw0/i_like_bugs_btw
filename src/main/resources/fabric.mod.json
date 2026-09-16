@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "i_like_bugs_btw",
+  "version": "${version}",
+  "name": "i like bugs btw",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/i_like_bugs_btw/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "dev.sqaw.i_like_bugs_btw.client.I_like_bugs_btwDataGenerator"
+    ],
+    "client": [
+      "dev.sqaw.i_like_bugs_btw.client.I_like_bugs_btwClient"
+    ],
+    "main": [
+      "dev.sqaw.i_like_bugs_btw.I_like_bugs_btw"
+    ]
+  },
+  "mixins": [
+    "i_like_bugs_btw.mixins.json",
+    {
+      "config": "i_like_bugs_btw.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "fabric-key-binding-api-v1": "*"
+  }
+}

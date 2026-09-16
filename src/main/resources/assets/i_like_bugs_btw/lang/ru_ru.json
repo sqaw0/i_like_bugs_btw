@@ -1,0 +1,7 @@
+{
+  "key.category.i_like_bugs_btw.binds": "i just like bugs btw",
+
+  "key.i_like_bugs_btw.bind": "Переключить гостинг",
+  "message.i_like_bugs_btw.toggle_ghosting.on": "Гостинг включен",
+  "message.i_like_bugs_btw.toggle_ghosting.off": "Гостинг выключен"
+}

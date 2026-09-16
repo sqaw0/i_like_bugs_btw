@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.sqaw.i_like_bugs_btw.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "client.i_like_bugs_btwMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

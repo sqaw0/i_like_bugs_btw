@@ -1,0 +1,7 @@
+{
+  "key.category.i_like_bugs_btw.binds": "i like bugs btw",
+
+  "key.i_like_bugs_btw.bind": "Toggle ghosting",
+  "message.i_like_bugs_btw.toggle_ghosting.on": "Ghosting on",
+  "message.i_like_bugs_btw.toggle_ghosting.off": "Ghosting off"
+}
